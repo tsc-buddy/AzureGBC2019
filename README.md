@@ -102,14 +102,31 @@ Click 'Turn on Site Extension' & then fill out the pane as below.
 
 ![alt text](/Images/2019-15.png)
 
-This will now go and install the Application Insights Site extension within your web app. Telemetry will soon start to flow.
+This will now go and install the Application Insights Site extension within your web app. Telemetry will soon start to flow. We will come back to this shortly.
 
 ### Adding Application Settings
+
+6. Now, we will want to hook up the Azure SQL Database we provisioned to our App Service. We do this by providing the App Service the connection string to our Azure SQL database & server.
+
+Go to your Azure SQL Database, not the server. On the left pane you will see Connection Strings, copy the 'ADO.NET' connection string and update it with the username and password you provided at creation and save to your clipboard.
+
+![alt text](/Images/2019-16.png)
+
+Now, navigate back to your App Service and on the left pane you will see Application Settings. Select it and scroll down to Connection Strings. Click '+ Add new connection string',name it 'db-connectionstring' and paste the value into the require field.
+
+Click 'Save up the top'.
+
+![alt text](/Images/2019-17.png)
+
+
+NOTE-This database is blank and the web app wont leverage it, but this is the manual process you would have to go through when setting up an App Service and Azure SQL DB in prep for a code release when ready.
 
 ### Setting up Web App Backups
 
 ### Browse Kudu
 
-### 
+### Hit the site and watch live telemetry.
 
-###
+
+## Static Site Deployment
+
