@@ -143,6 +143,21 @@ Kick off a backup and go check the storage account for the backup data once the 
 
 ### Hit the site and watch live telemetry.
 
+8. Finally for this part of the lab, we are going to browse to the site and watch some live telemetry as we do. Navigate to your App Service in Azure and make sure you are on the overview pane.
+
+Click 'browse' and Azure should open your site into a new tab.
+
+![alt text](/Images/2019-20.png)
+
+Split off the web site tab from your Azure Portal tab and run them side by side. In Azure, on the App Service, click 'Application Insights', then 'view application insights'.
+
+![alt text](/Images/2019-21.png)
+
+From here, click 'Live Metric Stream' - with the two windows open side by side, browse around your site, click on page links. You should see live metrics coming through on the other window.
+
+This is great to give you a live feed of performance when debugging issues with performance.
+
+![alt text](/Images/2019-22.png)
 
 ## Static Site Deployment
 
