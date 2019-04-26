@@ -72,9 +72,13 @@ REMEMBER - You do not have access to a virtual machine with this service.
 
 ### Deploy Azure Storage Account
 
-Next up, is going to be a storage account for backups, this can also be used for other content such as diagnostics should we wish. For the purpose of this lab, we will work with just backups.
+4. Next up, is going to be a storage account for backups, this can also be used for other content such as diagnostics should we wish. For the purpose of this lab, we will work with just backups.
 
 Though if you want to go and point your web app diagnostic logs to it,feel free to go work it out! :)
+
+Select 'Create a resource' and search for 'Storage Account', select Create & fill in the panes as below.
+
+NOTE- storage account names must be lowercase, no spaces or special characters. Also, it must be less that 25 characters.
 
 ![alt text](/Images/2019-10.png)
 
@@ -86,8 +90,19 @@ Once the Storage account deployment has completed, you should see the following 
 
 ![alt text](/Images/2019-13.png)
 
-
 ### Setting up App Insights
+
+5. Now that we have all the resources we need, we are going to start some basic configuration.
+
+First, lets hook up Application Insights to our web app. Navigate to your App Service within Azure. On the left hand pane, you should see Application Insights, the following message will appear.
+
+![alt text](/Images/2019-14.png)
+
+Click 'Turn on Site Extension' & then fill out the pane as below. 
+
+![alt text](/Images/2019-15.png)
+
+This will now go and install the Application Insights Site extension within your web app. Telemetry will soon start to flow.
 
 ### Adding Application Settings
 
