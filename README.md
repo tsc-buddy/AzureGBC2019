@@ -165,13 +165,9 @@ So if you have got this far, you haev successfully gotten infrastructure setup s
 
 You have backups, monitoring and a basic understanding of how it all got put together. You should have found this pretty quick, quicker that building VM's from scratch atleast. Now imagine if you had stamp this environment out 20 time, that would take a while.
 
-Good News, Daniel is going to cover off building this lab out in ARM with you after lunch. Good luck and thanks for following.
+Good News, Daniel is going to cover off building this lab out in ARM with you after lunch. 
 
-you have successfully replicated workloads within Azure using ASR. The process you under took is similar to what you would go through when replicating workloads from on-prem. Your next steps would be to look into some of the content below, get familiar with the scenario specific to your environments and work through the plan // prep // execute approach of ASR.
-
-The content will go into some Recovery plan designs and how you would use Azure Automation to orchestrate failover of your workloads.
-
-Good Luck and thanks for following.
+Good luck and thanks for following.
 
 ## Additional Content & Steps
 
