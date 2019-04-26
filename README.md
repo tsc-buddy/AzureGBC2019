@@ -26,13 +26,43 @@ First up, once you are logged into Azure, lets create our first resource for thi
 
 1. Select 'Create a resource' and search for 'ASP.NET Starter Web App', select Create & fill in the panes as below.
 
-Note -  Give your App Name, Resource Group & App Service Plan a name unique to you. If you try to use a name already used on a web app, it will say you cant use it.
+NOTE -  Give your App Name, Resource Group (not compulsoru) & App Service Plan a name unique to you. If you try to use a name already used on a web app, it will say you cant use it.
+
+NOTE - Set Application Insights to disabled.
 
 ![alt text](/Images/2019-1.png)
+
 ![alt text](/Images/2019-2.png)
+
 ![alt text](/Images/2019-3.png)
 
+Click 'Create', Once validation has completed, your resource deployment will begin.
+
+### Check your Web app deployment
+
+2. On the left toolbar pane, select "Resource Groups', this will present a list of available resource groups in your subscription, you should see the one you made as part of your Web App Deployment.
+
+![alt text](/Images/2019-4.png)
+
+![alt text](/Images/2019-5.png)
+
 ### Deploying Azure SQL
+
+3. Next up, we will deploy an Azure SQL DB. Select 'Create a resource' and search for 'SQL Database', select Create & fill in the panes as below.
+
+NOTE - your database can be named what ever you like, however, your Azure SQL Server needs to be unique. 
+
+NOTE - Select the same Resource group you already made for the web app.
+
+![alt text](/Images/2019-5.png)
+
+![alt text](/Images/2019-6.png)
+
+![alt text](/Images/2019-7.png)
+
+![alt text](/Images/2019-8.png)
+
+![alt text](/Images/2019-9.png)
 
 ### Deploy Azure Storage Account
 
