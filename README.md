@@ -123,7 +123,23 @@ NOTE-This database is blank and the web app wont leverage it, but this is the ma
 
 ### Setting up Web App Backups
 
-### Browse Kudu
+7. Next, we will setup a routine backup of our App Service. Browse to your App Service and in the left pane, select 'Backups'.
+
+Click 'Configure', you will now be prompted to specify the following:
+
+-- Storage Account
+    -- Container (Create one called Backup)
+-- Set a schedule
+-- Retention Period
+-- Optional Database backup (dont select for this lab)
+
+![alt text](/Images/2019-18.png)
+
+Once configured, give it a few minutes before clicking 'Backup', if one is already in progress, the task will fail.
+
+Kick off a backup and go check the storage account for the backup data once the job has finished.
+
+![alt text](/Images/2019-19.png)
 
 ### Hit the site and watch live telemetry.
 
