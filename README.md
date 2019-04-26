@@ -29,7 +29,8 @@ First up, once you are logged into Azure, lets create our first resource for thi
 Note -  Give your App Name, Resource Group & App Service Plan a name unique to you. If you try to use a name already used on a web app, it will say you cant use it.
 
 ![alt text](/Images/2019-1.png)
-
+![alt text](/Images/2019-2.png)
+![alt text](/Images/2019-3.png)
 
 ### Deploying Azure SQL
 
