@@ -1,5 +1,4 @@
 # AzureGBC2019
-Auckland Azure GBC 2019 Content
 
 Welcome! This repo has a bunch of content that will be getting covered in the Global Azure Bootcamp Auckland event for 2019. Here you can find the steps which we shall go through in the lab, the slide desk and some links to additional quick starts hosted on technet.
 
