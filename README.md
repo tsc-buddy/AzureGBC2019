@@ -42,6 +42,8 @@ Click 'Create', Once validation has completed, your resource deployment will beg
 
 2. On the left toolbar pane, select "Resource Groups', this will present a list of available resource groups in your subscription, you should see the one you made as part of your Web App Deployment.
 
+Inside it, you will have your App Service and App Service Plan.
+
 ![alt text](/Images/2019-4.png)
 
 ![alt text](/Images/2019-5.png)
@@ -64,7 +66,26 @@ NOTE - Select the same Resource group you already made for the web app.
 
 ![alt text](/Images/2019-9.png)
 
+Click 'Review & Create' at the bottom, followed by 'create'. This will kick of the provision of your Azure SQL Server and DB.
+
+REMEMBER - You do not have access to a virtual machine with this service.
+
 ### Deploy Azure Storage Account
+
+Next up, is going to be a storage account for backups, this can also be used for other content such as diagnostics should we wish. For the purpose of this lab, we will work with just backups.
+
+Though if you want to go and point your web app diagnostic logs to it,feel free to go work it out! :)
+
+![alt text](/Images/2019-10.png)
+
+![alt text](/Images/2019-11.png)
+
+![alt text](/Images/2019-12.png)
+
+Once the Storage account deployment has completed, you should see the following resources within your Resource Group.
+
+![alt text](/Images/2019-13.png)
+
 
 ### Setting up App Insights
 
