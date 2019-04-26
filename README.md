@@ -22,6 +22,15 @@ These labs are short & designed to give you an insight into some of the steps re
 
 ### Deploying an App Service
 
+First up, once you are logged into Azure, lets create our first resource for this lab. Web App.
+
+1. Select 'Create a resource' and search for 'ASP.NET Starter Web App', select Create & fill in the panes as below.
+
+Note -  Give your App Name, Resource Group & App Service Plan a name unique to you. If you try to use a name already used on a web app, it will say you cant use it.
+
+![alt text](/Images/2019-1.png)
+
+
 ### Deploying Azure SQL
 
 ### Deploy Azure Storage Account
