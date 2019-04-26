@@ -187,5 +187,7 @@ Good luck and thanks for following.
 If you want, try and work out some of the following:
 
 -- Deleting your web app and restoring from backup - [Here](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-restore-snapshots)
+
 -- Enable GEO replication on your Azure SQL Database - [Here](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-active-geo-replication-portal)
--- Place a traffic manager in front of your web app and browse to it. [Here](https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile#create-a-traffic-manager-profile)
+
+-- Place a traffic manager in front of your web app and browse to it. - [Here](https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile#create-a-traffic-manager-profile)
